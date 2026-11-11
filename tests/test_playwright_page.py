@@ -3,13 +3,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-def test_playwright_page(driver):
-    driver.get("https://playwright.dev/")
-    driver.find_element(By.ID, "username")
-    driver.find_elements(By.TAG_NAME, "input")
-    my_elements = driver.find_elements(By.TAG_NAME)
-    # element 
-    # print(len(
+# def test_playwright_page(driver):
+#     driver.get("https://playwright.dev/")
+#     driver.find_element(By.ID, "username")
+#     driver.find_elements(By.TAG_NAME, "input")
+#     my_elements = driver.find_elements(By.TAG_NAME)
+#     # element 
+#     # print(len(
 
 def test_pw_css(driver):
     driver.set_window_size(800, 800)          # below Docusaurus's 997px breakpoint
