@@ -4,4 +4,6 @@ pytest-html==4.2.0
 pytest-playwright==0.10.0
 python-dotenv==1.2.4
 selenium==4.52.0
-pytest-xdist
+pytest-xdist==3.8.0
+openai==3.51.0
+
